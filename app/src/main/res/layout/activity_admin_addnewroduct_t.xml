@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddnewroductTActivity">
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_product_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        ></ImageView>
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_product_image"
+        android:inputType="textImeMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint="ten san pham..... "
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+
+        ></EditText>
+    <EditText
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_name"
+        android:inputType="textImeMultiLine"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="mo ta san pham..... "
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+
+        ></EditText>
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_description"
+        android:inputType="textImeMultiLine"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="gia san pham..... "
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+
+        ></EditText>
+    <Button
+        android:id="@+id/add_new_pruductc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price"
+        android:text="them san  pham"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="17dp"
+        android:layout_marginTop="20dp"
+        android:textSize="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/buttons"
+        >
+
+    </Button>
+
+
+</RelativeLayout>
